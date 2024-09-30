@@ -19,7 +19,7 @@ const Navbars = () => {
           </div>
 
           <div className="w-full flex flex-row items-center justify-between">
-              <div className="w-1/6		 h-full">
+              <div className="w-1/2 md:w-1/6		 h-full">
               <img
                 alt="Your Company"
                 src={NavLogo}
@@ -52,30 +52,27 @@ const Navbars = () => {
         <div className="space-y-1 px-2 pb-3 pt-2">
           <DisclosureButton
               as="a"
-              
+              className="text-center"
             >
               <p className='cursor-pointer font-normal font-poppins text-black hover:text-gray-300 ease-in-out duration-300 mr-4'>Sustainable Websites</p>
             </DisclosureButton>
             <DisclosureButton
               as="a"
-              
-            >
-              <p className='cursor-pointer font-normal font-poppins text-black hover:text-gray-300 ease-in-out duration-300 mr-4'>Sustainable Websites</p>
-            </DisclosureButton>
-            <DisclosureButton
-              as="a"
+              className="text-center my-2"
               
             >
               <p className='cursor-pointer font-normal font-poppins text-black hover:text-gray-300 ease-in-out duration-300 mr-4'>Blog</p>
             </DisclosureButton>
             <DisclosureButton
               as="a"
+              className="text-center"
               
             >
               <p className='cursor-pointer font-normal font-poppins text-black hover:text-gray-300 ease-in-out duration-300 mr-4'>Contact Us</p>
             </DisclosureButton>
             <DisclosureButton
               as="a"
+              className="text-center my-2"
               
             >
               <p className='cursor-pointer font-normal font-poppins text-black hover:text-gray-300 ease-in-out duration-300 mr-4'>Login</p>
