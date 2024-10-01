@@ -48,6 +48,7 @@ const Home = () => {
     <>
       {loading && <Loader />} {/* Show loader when loading */}
       <Layout>
+      {/* {loading && } */}
         <Header />
         <TextSection textData="The CO2 footprint of the Internet's data centers alone may already be comparable to that of global air travel. The good news is that a growing number of major Internet corporations are becoming more environmentally conscientious, opting for more renewable energy sources for their data centers and operations." />
 

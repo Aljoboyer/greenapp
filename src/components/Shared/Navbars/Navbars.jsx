@@ -6,7 +6,7 @@ import NavLogoDark from '../../../assets/navlogodark.png'
 const Navbars = () => {
   return (
     <Disclosure as="nav" className="bg-white md:bg-transparent">
-      <div className="mx-auto  px-2 sm:px-6 lg:px-8 md:py-4">
+      <div className="mx-auto  px-2 sm:px-6 lg:px-8 py-4">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
             {/* Mobile menu button*/}
@@ -19,7 +19,7 @@ const Navbars = () => {
           </div>
 
           <div className="w-full flex flex-row items-center justify-between">
-              <div className="w-1/2 md:w-1/6		 h-full">
+              <div className="w-1/2 md:w-1/6 h-full">
               <img
                 alt="Your Company"
                 src={NavLogo}
